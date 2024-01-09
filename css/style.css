@@ -128,7 +128,6 @@ h1{
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    cursor: pointer;
 }
 
 .party-img{
@@ -174,7 +173,6 @@ h1{
     justify-content: center;
     align-items: center;
     border: none;
-    cursor: pointer;
 }
 
 /* time section ends */
@@ -464,7 +462,6 @@ input{
     background-color: #FF0000;
     margin-left: 0;
     margin-bottom: 70px;
-    cursor: pointer;
 }
 
 /* newsletter section ends */
