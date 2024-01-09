@@ -1,0 +1,540 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+section{
+    margin-bottom: 120px;
+}
+
+/* header section starts */
+
+header, main, .footer-section{
+    max-width: 1320px;
+}
+
+.header-section{
+    height: 600px;
+    background-image: linear-gradient(180deg, #070211 0, rgba(7, 2, 17, 0) 100%), url("../images/banner.png");
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+h5{
+    padding: 175px 530px 15px;
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+h1{
+    margin: 0 345px;
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+/* header section ends */
+
+/* deals section starts */
+
+.deals h2{
+    text-align: center;
+    color: #FF0000;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.deals h4{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    padding: 0;
+    color: #FF0000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.deals h3{
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.deals img{
+    display: block;
+    margin: 50px auto 0;
+}
+
+/* deals section ends */
+
+/* party section starts */
+
+.party{
+    height: 600px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/party.png");
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+
+.party-info{
+    padding-left: 125px;
+}
+
+.party h3{
+    margin: 0;
+    padding-top: 125px;
+    padding-bottom: 25px;
+    width: 640px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+}
+
+.party p{
+    padding-bottom: 50px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 700px;
+}
+
+.party button{
+    margin-left: 30px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.party-img{
+    padding: 70px 140px 70px 40px;
+}
+
+/* party section ends */
+
+/* time section starts */
+
+.time{
+    height: 480px;
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.time p{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.red-text{
+    color: #FF0000;
+}
+
+.time button{
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FF0000;
+    border-radius: 8px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+/* time section ends */
+
+/* offer section starts */
+
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-info{
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 105px 0;
+    margin: 0;
+}
+
+.offer-one{
+    color: #FF0000;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-two{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.offer-info p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.offer-img{
+    height: 485px;
+    width: 485px;
+    background-color: white;
+    border-radius: 50%;
+    border: 25px solid #FF0000;
+    position: relative;
+}
+
+.offer-img img{
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.offer-new-year{
+    width: 20%;
+    justify-content: flex-end;
+    align-self: flex-end;
+    margin-right: 0;
+}
+
+.offer h3{
+    color: #FF0000;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer-new-year p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 15px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+/* offer section ends */
+
+/* sale section starts */
+
+.sale h4{
+    text-align: center;
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sale h2{
+    text-align: center;
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sale p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 0 125px;
+    margin-bottom: 500px;
+}
+
+.sale-div{
+    display: flex;
+}
+
+.red{
+    position: relative;
+}
+
+.box{
+    position: absolute;
+    transform: translate(0, -65%);
+}
+
+.shopping{
+    display: flex;
+    position: absolute;
+    transform: translate(207.7%,-99.1%);
+    justify-content: flex-end;
+}
+
+.shopper{
+    position: relative;
+}
+
+.discount{
+    position: absolute;
+    transform: translate(-90%, 25%);
+}
+
+/* sale section ends */
+
+/* portfolio section starts */
+
+.p-one{
+    color: #FF0000;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.p-two{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.portfolio p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+
+.group-one, .group-two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-one{
+    margin-bottom: 25px;
+}
+  
+.item{
+    transition: .5s ease;
+}
+  
+.link{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: .5s ease;
+    transform: translate(-50%, -50%);
+}
+
+.overlay{
+    position: relative;
+    margin: 0;
+}
+
+.overlay:hover .item{
+    opacity: 0.5;
+}
+
+.overlay:hover .link{
+    opacity: 1;
+}
+
+.portfolio a{
+    color: #070211;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* portfolio section ends */
+
+/* newsletter section starts */
+
+.newsletter{
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter img{
+    margin: 90px 585px 0;
+}
+
+.newsletter h4{
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.newsletter p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 895px;
+    margin-bottom: 50px;
+}
+
+.subscription{
+    display: flex;
+}
+
+input{
+    height: 70px;
+    width: 430px;
+    border: none;
+    border-radius: 50px 0 0 50px ;
+    margin-right: 0;
+    
+}
+
+::placeholder{
+    padding-left: 30px;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.newsletter button{
+    height: 70px;
+    width: 210px;
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    background-color: #FF0000;
+    margin-left: 0;
+    margin-bottom: 70px;
+}
+
+/* newsletter section ends */
+
+/* footer section starts */
+
+footer{
+    background-color: #070211;
+    color: white;
+    margin-bottom: 0;
+    padding: 120px 0;
+}
+
+.contact{
+    padding: 0;
+    display: flex;
+}
+
+.address{
+    margin-left: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    width: 55%;
+}
+
+footer p{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.digital img{
+    height: 25px;
+    width: 25px;
+}
+
+.call{
+    display: flex;
+    align-items: center;
+}
+
+.internet{
+    display: flex;
+    align-items: center;
+}
+
+.digital img{
+    padding: 0;
+    margin: 0 15px 0 0;
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.social{
+    text-align: center;
+}
+
+.social img{
+    margin: 50px 12px;
+    height: 65px;
+    width: 65px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* footer section ends */
